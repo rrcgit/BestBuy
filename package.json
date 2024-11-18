@@ -1,0 +1,17 @@
+{
+  "name": "bestbuy",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "headedmode": "npx cypress run --headed",
+    "mensjacket": "npx cypress run --spec \"cypress/e2e/Tests/MenJackets.cy.js\" --headed --browser chrome"
+
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "cypress": "^13.15.2"
+  }
+}
